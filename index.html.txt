@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="موقع تعريفي بمنطقتي المدينة المنورة ونجران — يستعرض مدنهما وأبرز معالمهما ومشاريعهما التنموية" />
+  <title>مناطق المملكة | المدينة المنورة ونجران</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="progress-bar"></div>
+
+  <!-- التنقل -->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">🇸🇦 مناطق المملكة</a>
+      <button class="hamburger" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="madinah.html">المدينة المنورة</a></li>
+        <li><a href="najran.html">نجران</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">🌟 مشروع مادة تقنية رقمية 2</span>
+      <h1>مناطق المملكة العربية السعودية</h1>
+      <p>استكشفي منطقتي المدينة المنورة ونجران — تاريخ عريق، طبيعة ساحرة، ومستقبل مشرق</p>
+      <div class="hero-btns">
+        <a href="madinah.html" class="btn btn-gold">🕌 المدينة المنورة</a>
+        <a href="najran.html"  class="btn btn-outline">🏰 نجران</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- إحصائيات -->
+  <div class="stats-bar">
+    <div class="stats-wrap">
+      <div class="stat-item">
+        <span class="stat-num">13</span>
+        <span class="stat-lbl">منطقة إدارية</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">134</span>
+        <span class="stat-lbl">محافظة</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">2</span>
+        <span class="stat-lbl">منطقة مختارة</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">5+</span>
+        <span class="stat-lbl">مدينة مُستعرَضة</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- المناطق -->
+  <section class="section">
+    <div class="sec-header">
+      <h2>المنطقتان المختارتان</h2>
+      <p>اختاري منطقة لاستعراض مدنها وأبرز معالمها</p>
+    </div>
+    <div class="regions-grid">
+
+      <!-- المدينة المنورة -->
+      <a href="madinah.html" class="region-card">
+        <div class="rc-img-wrap">
+          <img src="madinah.jpg" alt="المدينة المنورة" class="rc-img" loading="lazy" />
+          <span class="rc-badge">منطقة المدينة المنورة</span>
+        </div>
+        <div class="rc-body">
+          <h3>المدينة المنورة</h3>
+          <p>ثاني أقدس البقاع في الإسلام، تحتضن المسجد النبوي الشريف وتضم مدناً عريقة كينبع وبدر والعُلا.</p>
+          <div class="rc-tags">
+            <span>📍 غرب المملكة</span>
+            <span>🕌 المسجد النبوي</span>
+            <span>🏺 مدائن صالح</span>
+            <span>🌊 ينبع البحرية</span>
+          </div>
+          <span class="rc-link">استعرضي مدن المنطقة ←</span>
+        </div>
+      </a>
+
+      <!-- نجران -->
+      <a href="najran.html" class="region-card">
+        <div class="rc-img-wrap">
+          <img src="najran.jpg" alt="نجران" class="rc-img" loading="lazy" />
+          <span class="rc-badge">منطقة نجران</span>
+        </div>
+        <div class="rc-body">
+          <h3>نجران</h3>
+          <p>درة الجنوب السعودي، تزخر بالتراث الحضاري العريق وتضم مدناً كشرورة وموقع الأخدود الأثري الشهير.</p>
+          <div class="rc-tags">
+            <span>📍 جنوب المملكة</span>
+            <span>🏰 قلعة الأخدود</span>
+            <span>🌿 طبيعة خلابة</span>
+            <span>🏜️ شرورة</span>
+          </div>
+          <span class="rc-link">استعرضي مدن المنطقة ←</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- معلومات عامة -->
+  <section class="section section-white">
+    <div class="sec-header">
+      <h2>عن المشروع</h2>
+      <p>مشروع مادة تقنية رقمية 2 — الفصل الدراسي الثاني 1447هـ</p>
+    </div>
+    <div style="max-width:800px; margin:0 auto; text-align:center; color:var(--gray); line-height:1.9; font-size:1rem;">
+      <p>
+        يُقدّم هذا الموقع جولةً معرفية في منطقتين من مناطق المملكة العربية السعودية الثلاث عشرة،
+        هما <strong>منطقة المدينة المنورة</strong> و<strong>منطقة نجران</strong>.
+        يستعرض الموقع أبرز المدن التابعة لكل منطقة، مع معلومات تفصيلية عن تاريخها وجغرافيتها ومشاريعها التنموية.
+      </p>
+      <br/>
+      <p>
+        بُني الموقع بلغتي <strong>HTML</strong> و<strong>CSS</strong> مع إضافات <strong>JavaScript</strong>
+        التفاعلية، ويدعم العرض على جميع الأجهزة (جوال — تابلت — حاسب).
+      </p>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>🇸🇦 مناطق المملكة</h4>
+        <p>موقع تعريفي بمنطقتي المدينة المنورة ونجران ومدنهما التابعة.</p>
+      </div>
+      <div class="footer-col">
+        <h4>روابط سريعة</h4>
+        <a href="index.html">الرئيسية</a>
+        <a href="madinah.html">المدينة المنورة</a>
+        <a href="najran.html">نجران</a>
+      </div>
+      <div class="footer-col">
+        <h4>المشروع</h4>
+        <p>مادة: تقنية رقمية 2</p>
+        <p>الفصل الدراسي الثاني</p>
+        <p>1447هـ</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 1447هـ — مشروع مادة تقنية رقمية 2
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
